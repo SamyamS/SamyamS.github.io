@@ -97,10 +97,10 @@ import {
       name: "Tableau",
       icon: tableau,
     },
-    {
-      name: "MSTR",
-      icon: MSTR,
-    },
+    // {
+    //   name: "MSTR",
+    //   icon: MSTR,
+    // },
     {
       name: "Excel",
       icon: excel,
