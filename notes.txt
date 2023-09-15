@@ -19,3 +19,6 @@ everything here are react packages, there are multiple react packages here. EG. 
 Installing three js package
 npm install --legacy-peer-deps three
 
+
+to deploy to github pages, 
+go here and you need nothing else: https://vitejs.dev/guide/static-deploy.html#github-pages
