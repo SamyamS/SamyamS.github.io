@@ -85,14 +85,14 @@ import {
       name: ".NET",
       icon: dot_net,
     },
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
+    // {
+    //   name: "HTML 5",
+    //   icon: html,
+    // },
+    // {
+    //   name: "CSS 3",
+    //   icon: css,
+    // },
     {
       name: "Tableau",
       icon: tableau,
@@ -105,22 +105,22 @@ import {
       name: "Excel",
       icon: excel,
     },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Snowflake",
-      icon: SNOW,
-    },
-    {
-      name: "My SQL",
-      icon: mysql,
-    }, 
-    {
-      name: "SQL Server",
-      icon: sql_server,
-    },
+    // {
+    //   name: "MongoDB",
+    //   icon: mongodb,
+    // },
+    // {
+    //   name: "Snowflake",
+    //   icon: SNOW,
+    // },
+    // {
+    //   name: "My SQL",
+    //   icon: mysql,
+    // }, 
+    // {
+    //   name: "SQL Server",
+    //   icon: sql_server,
+    // },
     // {
     //   name: "Visual Studio",
     //   icon: vs,
@@ -129,10 +129,10 @@ import {
     //   name: "Visual Studio Code",
     //   icon: vs_code,
     // },
-    {
-      name: "git",
-      icon: git,
-    },
+    // {
+    //   name: "git",
+    //   icon: git,
+    // },
   ];
   
   const experiences = [
