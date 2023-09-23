@@ -32,9 +32,11 @@ import tripguide from "./tripguide.png";
 
 import LIS_logo from "./company/LIS_logo.png";
 import UNL_logo from "./company/UNL_logo.png";
+import defaultImg from "./company/defaultImg.png";
 import tableau_works from "./tableau_works.png";
 import final_journey from "./final_journey.png";
 import cannibals from "./cannibals.png";
+import tfbs from "./tfbs.png";
 
 import c_sharp from "./tech/c_sharp.png";
 import vs from "./tech/vs.png";
@@ -48,6 +50,7 @@ import vs_code from "./tech/vs_code.png";
 import sql_server from "./tech/sql_server.png";
 import excel from "./tech/excel.png";
 import tableau from "./tech/tableau.png";
+
 
 export {
   logo,
@@ -95,4 +98,6 @@ export {
   excel,
   tableau,
   cannibals,
+  tfbs,
+  defaultImg,
 };

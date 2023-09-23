@@ -40,6 +40,8 @@ import {
     excel,
     tableau,
     cannibals,
+    tfbs,
+    defaultImg
   } from "../assets";
   
   export const navLinks = [
@@ -137,30 +139,18 @@ import {
   
   const experiences = [
     {
-      title: "Intern Software Engineer",
-      company_name: "LIS Nepal",
-      icon: LIS_logo,
-      iconBg: "#383E56",
-      date: "July 2019 - September 2019",
-      points: [
-        "Designed and developed dashboards in MicroStrategy, delivering valuable insights to stakeholders and enabling data-driven decision-making with proficiency in data visualization and analytics tools.",
-        "Conducted continuous integration and deployment (CI/CD) processes and thorough unit testing.",
-        "Leveraged my proficiency with industry-standard tools such as Git for version control, Github for collaborative development, and Jira for issue tracking and project management, to ensure the timely and successful delivery of top-quality solutions.",
-        "Maintained ETL python scripts to ensure data accuracy, showcasing strong attention to detail and technical expertise and contributing to smoother operations and optimized performance by efficiently identifying and fixing issues.",
-      ],
-    },
-    {
-      title: "Associate Software Engineer",
-      company_name: "LIS Nepal",
-      icon: LIS_logo,
+      title: "Intern .NET Developer",
+      company_name: "SCP, Lincoln, NE",
+      icon: defaultImg,
       iconBg: "#E6DEDD",
-      date: "September 2019 - September 2020",
+      date: "August 2022 - Present",
       points: [
-        "Leveraged expertise in Python, SQL, Snowflake, MicroStrategy, Looker, and Oracle data integration (ODI) to drive successful implementation of two large-scale big data warehouse projects that met and exceeded business objectives",
-        "Executed complex ETL(Extract Transform and Load) processes and developed comprehensive analytical reports, utilizing a keen eye for detail and a strategic approach to drive data-informed business decisions and identify growth opportunities.",
-        "Built strong, collaborative relationships with offshore clients, demonstrating a customer-focused mindset and ensuring timely delivery of high-quality work.",
-        "Participated in biweekly scrum meetings to enhance collaboration and ensure project goals were met.",
-        "Spearheaded successful deployment of a cutting-edge workflow management system for the company, utilizing React JS technology and leading cross-functional teams to streamline processes and increase operational efficiency.",
+        "Design and develop web applications using ASP.NET to improve user experience, resulting in a 70% increase in user engagement.",
+        "Utilize C# and Entity Framework for backend development, enhancing database performance and reducing query execution time by 20%.",
+        "Implement RESTful APIs to enable seamless data communication and integration.",
+        "Resolve complex technical issues and improved application performance through debugging.",
+        "Maintain version control using Git and participating in agile development processes.",
+        "Implement unit and integration testing for controllers and database context to ensure code reliability",
       ],
     },
     {
@@ -170,8 +160,35 @@ import {
       iconBg: "#383E56",
       date: "August 2022 - April 2023",
       points: [
-        "Gathered and systematically arranged a substantial volume of data in preparation for analysis.",
-        "Facilitated a smooth integration process for newly hired part-time team members by providing clear guidance, support, and fostering a positive team environment, resulting in their quick and confident contribution to the team's success.",
+        "Gathered and effectively organized a substantial dataset, resulting in a 30% reduction in analysis time.",
+        "Facilitated a smooth integration process for new team members by providing guidance and fostering a positive team environment, resulting in quick and confident contributions to the team's success.",
+      ],
+    },
+    {
+      title: "Associate Software Engineer",
+      company_name: "LIS Nepal",
+      icon: LIS_logo,
+      iconBg: "#E6DEDD",
+      date: "September 2019 - September 2020",
+      points: [
+        "Leveraged expertise in Python, SQL and Snowflake to execute intricate ETL processes to help drive successful implementation of two substantial big data warehouse projects generating millions in cost savings.",
+        "Developed comprehensive analytical reports in MicroStrategy and Looker utilizing a keen eye for detail and a strategic approach for data-informed business decisions resulting in $5 million revenue growth.",
+        "Proposed the addition of a project manager to the team and the implementation of biweekly scrum meetings, resulting in an impressive 80% increase in on-time project deliverables upon approval.",
+        "Built strong and collaborative relationships with offshore clients, demonstrating a customer-focused mindset and ensuring timely delivery of high-quality work.",
+        "Spearheaded successful deployment of a cutting-edge workflow management system for the company utilizing React JS and leading cross-functional teams to streamline processes and increase operational efficiency by an impressive 50%.",
+      ],
+    },
+    {
+      title: "Intern Software Engineer",
+      company_name: "LIS Nepal",
+      icon: LIS_logo,
+      iconBg: "#383E56",
+      date: "July 2019 - September 2019",
+      points: [
+        "Designed and developed dashboards in MicroStrategy, delivering valuable insights to stakeholders and enabling data-driven decision-making demonstrating proficiency in data visualization and analytics tools.",
+        "Conducted continuous integration and deployment (CI/CD) processes and thorough ad-hoc testing.",
+        "Leveraged proficiency with industry-standard tools such as Git for version control and Jira for issue tracking and project management.",
+        "Maintained ETL python scripts to ensure data accuracy, showcasing strong attention to detail and technical expertise and contributing to smoother operations and optimized performance by efficiently identifying and fixing issues.",
       ],
     },
   ];
@@ -266,6 +283,27 @@ import {
       ],
       image: final_journey,
       source_code_link: "https://github.com/SamyamS/Final-journey",
+    },
+    {
+      name: "Neural network modeling for transcription factor binding site prediction",
+      description:
+        "Built and compared different neural network model design to predict the transcription factor binding site. Main model inspired by DeepGenBind.",
+      tags: [
+        {
+          name: "neural network",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "bioinformatics",
+          color: "green-text-gradient",
+        },
+        {
+          name: "machine learning",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tfbs,
+      source_code_link: "https://github.com/SamyamS/TFBS_prediction",
     },
   ];
   
